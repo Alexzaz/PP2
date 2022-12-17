@@ -14,6 +14,20 @@ digraph Commits {
   12[label="File: hi.py", color="#FFC8FB"]
   13[label="File: main.py", color="#FFC8FB"]
   14[label="Commit: Update main.py", color="#ff92c2"]
+  15[label="Commit: Up", color="#ff92c2"]
+  16[label="Directory: .idea", color="#595758"]
+  17[label="Directory: inspectionProfiles", color="#595758"]
+  18[label="File: profiles_settings.xml", color="#FFC8FB"]
+  19[label="File: .gitignore", color="#FFC8FB"]
+  20[label="File: PP2.iml", color="#FFC8FB"]
+  21[label="File: misc.xml", color="#FFC8FB"]
+  22[label="File: modules.xml", color="#FFC8FB"]
+  23[label="File: vcs.xml", color="#FFC8FB"]
+  24[label="File: Commits.dot", color="#FFC8FB"]
+  25[label="File: README.md", color="#FFC8FB"]
+  26[label="File: commits.dot", color="#FFC8FB"]
+  27[label="File: hi.py", color="#FFC8FB"]
+  28[label="File: main.py", color="#FFC8FB"]
   0 -> 1
   0 -> 2
   2 -> 3
@@ -28,4 +42,18 @@ digraph Commits {
   9 -> 12
   9 -> 13
   9 -> 14
+  14 -> 15
+  15 -> 16
+  16 -> 17
+  17 -> 18
+  16 -> 19
+  16 -> 20
+  16 -> 21
+  16 -> 22
+  16 -> 23
+  15 -> 24
+  15 -> 25
+  15 -> 26
+  15 -> 27
+  15 -> 28
 }
